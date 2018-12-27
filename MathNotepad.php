@@ -22,7 +22,7 @@ class MathNotepad extends Widget
         $assetManager = new AssetManager();
         $assetManager->forceCopy = YII_ENV_DEV ? true : false;
         $assetManager->linkAssets = true;
-        $assetManager->publish('@app/widgets/MathNotepad/assets');
+        $assetManager->publish('@app/vendor/karmakarpatrick/yii2-mathnotepad/assets');
         parent::init();
 
     }
